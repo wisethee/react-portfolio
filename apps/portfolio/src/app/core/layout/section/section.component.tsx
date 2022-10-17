@@ -9,7 +9,7 @@ type AppSectionProps = {
 };
 
 const AppSection = ({ id, children, height, direction }: AppSectionProps) => {
-  const padding = 'px-4 py-8 lg:px-8 lg:py-16 xl:px-16 xl:py-32';
+  const padding = 'p-4 lg:p-8 lg:p-16';
 
   return (
     <section id={id} className={classNames(height, padding, 'flex', direction)}>
