@@ -1,25 +1,14 @@
 import { Fragment } from 'react';
-import { ReactComponent as NavbarLogo } from '../../assets/icons/navbar-logo.svg';
-import { ReactComponent as NavbarMenu } from '../../assets/icons/navbar-menu.svg';
-import { ReactComponent as NavbarToggleMode } from '../../assets/icons/navbar-toggle-mode.svg';
+import AppNav from '../core/layout/nav/nav.component';
+import AppSection from '../core/layout/section/section.component';
 
 const AppHome = () => {
   return (
     <Fragment>
-      <nav
-        id="app-nav"
-        className="px-4 lg:px-8 2xl:px-16 h-20 lg:h-24 2xl:h-28 flex place-content-between items-center absolute w-full"
-      >
-        <div className="flex items-center">
-          <NavbarLogo />
-        </div>
-        <div className="flex items-center gap-2 lg:gap-4 2xl:gap-6">
-          <NavbarToggleMode />
-          <NavbarMenu />
-        </div>
-      </nav>
+      <AppNav />
 
-      <section
+      <AppSection id="app-hero">test section</AppSection>
+      {/* <section
         id="app-hero"
         className="h-screen px-4 lg:px-8 2xl:px-16 lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl m-auto flex items-center"
       >
@@ -39,7 +28,7 @@ const AppHome = () => {
             in finding the best way possible to complete the challenges.
           </p>
         </div>
-      </section>
+      </section> */}
     </Fragment>
   );
 };
