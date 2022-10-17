@@ -20,7 +20,7 @@
           "apps/portfolio/src/favicon.ico",
           "apps/portfolio/src/assets"
         ],
-        "styles": ["apps/portfolio/src/styles.scss"],
+        "styles": ["apps/portfolio/src/styles/main.scss"],
         "scripts": [],
         "webpackConfig": "@nrwl/react/plugins/webpack"
       },
