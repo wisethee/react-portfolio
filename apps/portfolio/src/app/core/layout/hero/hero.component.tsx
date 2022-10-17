@@ -5,7 +5,7 @@ const AppHero = () => {
   return (
     <AppSection id="app-hero" height="h-screen" direction="flex-col">
       <AppContainer>
-        <div className="w-full md:w-1/2">
+        <div className="w-full md:w-6/12">
           <h1 className="mb-2 md:mb-4 lg:mb-6 text-display-small md:text-display-medium lg:text-display-large text-light-on-surface">
             Hello, <br />
             I'm&nbsp;
